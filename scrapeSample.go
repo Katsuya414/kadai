@@ -7,7 +7,7 @@ import (
 
 func main() {
     // 投稿した記事の一覧ページのリンクから、ドキュメントを取得
-    doc, err := goquery.NewDocument("https://www.fox-hound.tech/author/kazuki-matsumoto/")
+    doc, err := goquery.NewDocument("https://folio-sec.com/theme/virtual-reality")
     if err != nil {
         fmt.Println(err)
     }
