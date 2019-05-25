@@ -1,4 +1,4 @@
 import requests
 
-response = requests.get('http://test.neet-ai.com')
+response = requests.get('https://folio-sec.com/theme/virtual-reality')
 print(response.text)
