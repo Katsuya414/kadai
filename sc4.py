@@ -12,4 +12,4 @@ for elem in elems:
   brands.append(elem.text)
 
 for brand in sorted(set(brands), key=brands.index):
-  print(brand)```
+  print(brand)
